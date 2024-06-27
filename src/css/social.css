@@ -1,0 +1,81 @@
+.social {
+    width: 100%;
+    background-color: #F8EFEF;
+    padding: 14px 0 17px;
+}
+
+.social_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_description {
+    width: 365px;
+}
+
+.social_header {
+    margin-bottom: 6px;
+}
+
+.social_text {
+    color: #86878B;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social_nav {
+    width: 600px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.social_list {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_item {
+    display: flex;
+}
+
+.social_icon {
+    transition: 0.4s;
+    color: #86878B;
+    font-size: 40px;
+}
+
+.social_icon:hover {
+    transform: scale(1.4) rotate(360deg);
+}
+
+.fa-facebook-f:hover {
+    color: darkblue;
+}
+
+.fa-square-x-twitter:hover {
+    color: rgb(99, 90, 90);
+}
+
+.fa-google-plus-g:hover {
+    color: yellowgreen;
+}
+
+.fa-pinterest:hover {
+    color: orange;
+}
+
+.fa-instagram:hover {
+    color: rgb(215, 62, 88);
+}
+
+.fa-whatsapp:hover {
+    color: green;
+}
+
+.fa-telegram:hover {
+    color: blue;
+}

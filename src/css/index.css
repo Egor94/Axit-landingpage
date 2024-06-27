@@ -1,0 +1,119 @@
+
+@import url(./fonts.css);
+@import url(./iconAwesome.css);
+@import url(./header.css);
+@import url(./axit.css);
+@import url(./awesome.css);
+@import url(./pricing.css);
+@import url(./header.css);
+@import url(./stylish.css);
+@import url(./customers.css);
+@import url(./social.css);
+@import url(./contact.css);
+@import url(./footer.css);
+@import url(./soft.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+
+html {
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h1::after {
+    content: "";
+    display: flex;
+    width: 64px;
+    height: 2px;
+    background-color: #FFF;
+    margin: 32px 0 39px;
+}
+
+h2 {
+    color: #212121;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+h2::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: red;
+    display: block;
+    margin: 34px auto;
+}
+
+h3 {
+	color: #333;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.common_container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.common_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 68px;
+}
+
+.common_description_text {
+    color: #86878B;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.common_text_white {
+    color: #fff !important;
+}
+
+.common_text_white:after {
+    background-color: #fff;
+}
+
+.common_button_link {
+    width: 135px;
+    border: 1px solid #fff;
+    margin: auto;
+}
+
+.common_button_link a {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 11px 0;
+    transition: 0.2s;    
+}
+
+.common_button_link a:hover {
+    background-color: #212121;
+}

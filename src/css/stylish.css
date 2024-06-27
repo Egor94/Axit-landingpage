@@ -1,0 +1,23 @@
+.stylish {
+    padding: 58px 0 38px 0;
+    background-image: url("../img/stylish_back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+.stylish::after{
+    content: "";
+    background-color:rgba(0, 0, 0, 0.55);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height:  100%;
+}
+
+.description_stylish {
+    margin-bottom: 57px !important;
+}
