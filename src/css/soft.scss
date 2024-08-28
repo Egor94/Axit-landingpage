@@ -50,7 +50,6 @@
 }
 
 .soft_text {
-    width: 575px;
     color: #86878B;
     font-family: "Open Sans";
     font-size: 14px;
@@ -65,13 +64,13 @@
 }
 
 .soft_p {
-    width: 572px;
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .soft_link {
     width: 135px;
     border: 1px solid #fff;
+    margin-top: 25px;
 }
 
 .soft_link a {
@@ -98,4 +97,34 @@
 
 .soft_hidden {
     display: none;
+}
+
+@media (max-width: 860px) {
+    .soft_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .soft_left {
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 640px) {
+    .soft_wrap {
+        align-items: center;
+    }
+
+    .soft_img {
+        margin: auto;
+    }
+
+    .soft_visible {
+        flex-direction: column;
+    }
+
+    .soft {
+        padding: 75px 0 35px;
+    }
 }

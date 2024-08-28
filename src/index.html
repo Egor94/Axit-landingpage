@@ -4,7 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/index.scss">
+	<script defer type="module" src="./js/index.js"></script>
 	<title>AXIT</title>
 </head>
 
@@ -12,6 +13,10 @@
 	<header class="header">
 		<div class="common_container">
 			<div class="header_wrap">
+				<button class="header_burger" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+
 				<div class="header_logo">
 					<span class="header_logo_start">AX</span>
 					<span class="header_logo_end">IT</span>
@@ -150,7 +155,7 @@
 								<a href="#">download</a>
 							</div>
 						</div>
-						<div>
+						<div class="soft_img">
 							<img src="./img/city.png" alt="img">
 						</div>
 					</div>
@@ -394,7 +399,7 @@
 					<ul class="footer_list">
 						<li class="social_item">
 							<a href="https://www.facebook.com/" target="_blank">
-								<i class="fa-brands fa-facesocial_icon footer_nav_icon"></i>
+								<i class="fa-brands fa-facebook-f social_icon footer_nav_icon"></i>
 							</a>
 						</li>
 						<li class="social_item">

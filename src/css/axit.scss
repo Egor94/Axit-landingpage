@@ -20,10 +20,11 @@
 .axit_wrap {
     display: flex;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
 
 .axit_description {
-    width: 545px;
+    /* width: 545px; */
     align-items: flex-start !important;
 }
 
@@ -60,6 +61,7 @@
 
 .axit_right_half {
     width: 370px;
+    margin-left: 50px;
 }
 
 .axit_form {
@@ -126,4 +128,30 @@
     font-size: 15px;
     line-height: normal;
     cursor: pointer;
+}
+
+@media (max-width: 860px) {
+ 
+}
+
+@media (max-width: 700px) {
+    .axit_wrap {
+        flex-wrap: wrap;
+        align-items:center;
+    }
+
+    .axit_right_half {
+        width: 85%;
+        margin:auto;
+    }
+
+    .axit_button {
+        width: 100%;
+    }
+
+    .axit_form_content {
+        padding: 40px 60px;
+
+    } 
+
 }

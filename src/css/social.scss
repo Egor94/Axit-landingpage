@@ -10,7 +10,7 @@
 }
 
 .social_description {
-    width: 365px;
+    width: 45%;
 }
 
 .social_header {
@@ -25,7 +25,7 @@
 }
 
 .social_nav {
-    width: 600px;
+    width: 45%;
     min-width: 300px;
     display: flex;
     align-items: center;
@@ -78,4 +78,18 @@
 
 .fa-telegram:hover {
     color: blue;
+}
+
+@media (max-width: 700px) {
+    .social_wrap {
+        flex-wrap: wrap;
+    }
+    .social_description {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+.social_nav {
+width: 100%;
+}
 }
