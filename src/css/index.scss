@@ -118,3 +118,20 @@ h3 {
 .common_button_link a:hover {
     background-color: #212121;
 }
+
+.arrow_up {
+    z-index: 5;
+    position: fixed;
+    bottom: -50px;
+    right: 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: 0.4 linear;
+}
+
+.arrow_up.active {
+    bottom: 50px;
+    transform: 0.4 linear;
+}
