@@ -14,9 +14,8 @@
 		<div class="common_container">
 			<div class="header_wrap">
 				<button class="header_burger" id="burger">
-                    <span></span><span></span><span></span>
-                </button>
-
+					<span></span><span></span><span></span>
+				</button>
 				<div class="header_logo">
 					<span class="header_logo_start">AX</span>
 					<span class="header_logo_end">IT</span>
@@ -99,7 +98,7 @@
 						</li>
 						<li class="social_item">
 							<a href="https://twitter.com/" target="_blank">
-								<i class="fa-brands fa-square-x-twitter social_icon"></i>							</a>
+								<i class="fa-brands fa-square-x-twitter social_icon"></i> </a>
 						</li>
 						<li class="social_item">
 							<a href="https://www.google.com/" target="_blank">
@@ -135,20 +134,21 @@
 		<div class="common_container">
 			<div class="soft_wrap">
 				<div class="soft_left">
-					<button class="soft_tab" id="tab_1">tab 1</button>
-					<button class="soft_tab" id="tab_2">tab 2</button>
-					<button class="soft_tab" id="tab_3">tab 3</button>
+					<button id="tab_1" class="soft_tab soft_tab_active">tab 1</button>
+					<button id="tab_2" class="soft_tab">tab 2</button>
+					<button id="tab_3" class="soft_tab">tab 3</button>
 				</div>
 				<div>
-					<div class="soft_right soft_visible">
+					<div id="content_1" class="soft_right soft_right_visible">
 						<div class="soft_description_container">
 							<div class="soft_text">
-								<h3 class="soft_h">Tabs with soft transitioning effect.</h3>
+								<h3 class="soft_h">FIRST TAB</h3>
 								<p class="soft_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
 									euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
 									justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis
 									dis parturient montes.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+									euismod bibendum
 									laoreet.</p>
 							</div>
 							<div class="soft_link">
@@ -156,45 +156,47 @@
 							</div>
 						</div>
 						<div class="soft_img">
-							<img src="./img/city.png" alt="img">
+							<img src="./img/city.png" alt="img_1">
 						</div>
 					</div>
-					<div class="soft_right soft_hidden">
+					<div id="content_2" class="soft_right">
 						<div class="soft_description_container">
 							<div class="soft_text">
-								<h3 class="soft_h">Tabs with soft transitioning effect.</h3>
+								<h3 class="soft_h">SECOND TAB</h3>
 								<p class="soft_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
 									euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
 									justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis
 									dis parturient montes.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+									euismod bibendum
 									laoreet.</p>
 							</div>
 							<div class="soft_link">
 								<a href="#">download</a>
 							</div>
 						</div>
-						<div>
-							<img src="./img/city.png" alt="img">
+						<div class="soft_img">
+							<img src="./img/city.png" alt="img_2">
 						</div>
 					</div>
-					<div class="soft_right soft_hidden">
+					<div id="content_3" class="soft_right">
 						<div class="soft_description_container">
 							<div class="soft_text">
-								<h3 class="soft_h">Tabs with soft transitioning effect.</h3>
+								<h3 class="soft_h">THIRD TAB</h3>
 								<p class="soft_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
 									euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
 									justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis
 									dis parturient montes.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+									euismod bibendum
 									laoreet.</p>
 							</div>
 							<div class="soft_link">
 								<a href="#">download</a>
 							</div>
 						</div>
-						<div>
-							<img src="./img/city.png" alt="img">
+						<div class="soft_img">
+							<img src="./img/city.png" alt="img_3">
 						</div>
 					</div>
 				</div>
@@ -384,7 +386,8 @@
 				</div>
 				<div class="contact_content_right">
 					<label for="message-list" class="contact_message_label">Message</label>
-					<textarea name="message-list" id="message-list" cols="30" rows="" class="contact_message_input"></textarea>
+					<textarea name="message-list" id="message-list" cols="30" rows=""
+						class="contact_message_input"></textarea>
 				</div>
 			</div>
 			<div class="contact_click">
@@ -404,7 +407,7 @@
 						</li>
 						<li class="social_item">
 							<a href="https://twitter.com/" target="_blank">
-								<i class="fa-brands fa-square-x-twitter social_icon footer_nav_icon"></i>							</a>
+								<i class="fa-brands fa-square-x-twitter social_icon footer_nav_icon"></i> </a>
 						</li>
 						<li class="social_item">
 							<a href="https://www.google.com/" target="_blank">
@@ -437,13 +440,12 @@
 			</div>
 		</div>
 	</footer>
+	<div id="arrowUp" class="arrow_up">
+		<a href="#features">
+			<img src="./img/up.svg">
+			</img>
+		</a>
+	</div>
 </body>
-
-<div id="arrowUp" class="arrow_up" >
-	<a href="#features" >
-		<img  src="./img/up.svg">
-	</img>
-	</a>
-</div>
 
 </html>

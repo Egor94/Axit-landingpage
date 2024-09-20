@@ -36,11 +36,19 @@
     background-color: #EC7979;
 }
 
+.soft_tab_active {
+    background-color: #EC7979;
+}
+
 .soft_right {
-    display: flex;
     justify-content: space-between;
     height: 100%;
     grid-gap: 35px;
+    display: none;
+}
+
+.soft_right_visible {
+    display: flex;
 }
 
 .soft_description_container {
@@ -91,14 +99,6 @@
     background-color: #333;
 }
 
-.soft_visible {
-    display: flex;
-}
-
-.soft_hidden {
-    display: none;
-}
-
 @media (max-width: 860px) {
     .soft_wrap {
         display: flex;
@@ -120,7 +120,7 @@
         margin: auto;
     }
 
-    .soft_visible {
+    .soft_right {
         flex-direction: column;
     }
 

@@ -1,4 +1,3 @@
-
 @import url(./fonts.scss);
 @import url(./iconAwesome.scss);
 @import url(./header.scss);
@@ -18,11 +17,15 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 html {
     font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -60,10 +63,10 @@ h2::after {
 }
 
 h3 {
-	color: #333;
-	font-family: "Open Sans";
-	font-size: 20px;
-	font-weight: 700;
+    color: #333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .common_container {
@@ -112,7 +115,7 @@ h3 {
     font-weight: 600;
     text-transform: capitalize;
     padding: 11px 0;
-    transition: 0.2s;    
+    transition: 0.2s;
 }
 
 .common_button_link a:hover {

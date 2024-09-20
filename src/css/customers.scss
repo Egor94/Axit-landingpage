@@ -20,12 +20,12 @@
 }
 
 .up_card::after {
-    content: ''; 
+    content: '';
     position: absolute;
     display: block;
     width: 0;
     height: 0;
-    border: 10px solid transparent; 
+    border: 10px solid transparent;
     border-top: 10px solid #E2E2E2;
     bottom: -20px;
     left: 40px;
@@ -36,17 +36,17 @@
     text-align: center;
     font-family: "Open Sans";
     font-size: 14px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
-.customers_down_card{
+.customers_down_card {
     width: 215px;
     display: flex;
     justify-content: space-between;
     margin: 22px auto 0;
 }
 
-.customers_card_info{
+.customers_card_info {
     display: flex;
     flex-direction: column;
 }
@@ -70,7 +70,7 @@
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 700;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
 .position {
@@ -79,5 +79,5 @@
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
